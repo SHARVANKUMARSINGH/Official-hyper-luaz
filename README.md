@@ -24,7 +24,7 @@ Copy this script and paste it into your executor (Delta, Fluxus, Hydrogen, Synap
 ```lua
 loadstring(game:HttpGet("[https://pastebin.com/raw/npm0hY99](https://pastebin.com/raw/npm0hY99)"))()
 
-
+##luaz structure 
 
 ```lua
 -- [[ LUAZ HUB | OFFICIAL RELEASE ]] --------------------------------
