@@ -1,6 +1,6 @@
-# 💎 Luaz Hub | V7 Release
+# 💎 Luaz Hub | Official Release
 
-![Lua](https://img.shields.io/badge/Language-Lua-blue.svg) ![Platform](https://img.shields.io/badge/Platform-Roblox-red.svg) ![Mobile](https://img.shields.io/badge/Support-PC%20%2F%20Mobile-green.svg)
+![Language](https://img.shields.io/badge/Language-Lua-blue.svg) ![Platform](https://img.shields.io/badge/Platform-Roblox-red.svg) ![Support](https://img.shields.io/badge/Device-PC%20%2F%20Mobile-green.svg)
 
 **Luaz Hub** is a premium, lightweight, and fully optimized UI Library and Script Hub for Roblox. Built with performance and mobile compatibility in mind, it features a modern interface, real-time theme customization, and robust security.
 
@@ -17,9 +17,9 @@
 
 ---
 
-## 📥 How to Use
+## 📥 How to Use (Script Loader)
 
 Copy the script below and paste it into your executor (Delta, Fluxus, Hydrogen, Synapse X, etc.).
 
 ```lua
-loadstring(game:HttpGet("[https://pastebin.com/raw/Y7Lws2Fh](https://pastebin.com/raw/Y7Lws2Fh)"))()
+loadstring(game:HttpGet("[https://pastebin.com/raw/npm0hY99](https://pastebin.com/raw/npm0hY99)"))()
