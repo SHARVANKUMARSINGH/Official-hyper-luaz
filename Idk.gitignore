@@ -1,0 +1,27 @@
+# --- System & OS Files (Junk) ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Roblox Studio Files ---
+# We ignore these because they are binary files and too big for Git
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# --- Roblox Auto-Saves & Locks ---
+*.lock
+*AutoRecovery*
+*.rbxl.lock
+
+# --- Editors (VS Code / Stylua) ---
+.vscode/
+.idea/
+*.sublime-workspace
+
+# --- Security (IMPORTANT) ---
+# Add any file names here that store your personal keys or unfinished private scripts
+private_key.lua
+test_scripts/
+tokens.txt
