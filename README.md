@@ -17,13 +17,16 @@
 
 ---
 
-## 📥 How to Use template (Script Loader)
+## 📥 Quick Start template (Recommended to understandl uaz)
 
-Copy the script below and paste it into your executor (Delta, Fluxus, Hydrogen, Synapse X, etc.).
+Copy this script and paste it into your executor (Delta, Fluxus, Hydrogen, Synapse X, etc.) to run the hub instantly.
 
 ```lua
-loadstring(game:HttpGet("https://pastebin.com/raw/npm0hY99)
- ```lua
+loadstring(game:HttpGet("[https://pastebin.com/raw/npm0hY99](https://pastebin.com/raw/npm0hY99)"))()
+
+
+
+```lua
 -- [[ LUAZ HUB | OFFICIAL RELEASE ]] --------------------------------
 -- Version: 1.0 (Public)
 -- Developer: Luaz
