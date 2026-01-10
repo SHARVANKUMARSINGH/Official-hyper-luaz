@@ -22,4 +22,4 @@
 Copy the script below and paste it into your executor (Delta, Fluxus, Hydrogen, Synapse X, etc.).
 
 ```lua
-loadstring(game:HttpGet("[https://pastebin.com/raw/npm0hY99](https://pastebin.com/raw/npm0hY99)"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/npm0hY99)
