@@ -20,7 +20,7 @@
 ## 📥 Quick Start template (Recommended to understandl  Luaz)
 
 your executor (Delta, Fluxus, Hydrogen, Synapse X, etc.) to run the hub 
-
+```lua
 -- Luaz v10 Loader
 -- Loads directly from the provided source
 
