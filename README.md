@@ -21,30 +21,20 @@
 
 your executor (Delta, Fluxus, Hydrogen, Synapse X, etc.) to run the hub 
 ```lua
--- Luaz v10 Loader
--- Loads directly from the provided source
+local Luaz = loadstring(game:HttpGet("https://pastebin.com/raw/nUvbnNvk"))()
 
-local libraryUrl = "https://pastebin.com/raw/YjLHRFyw"
-
--- Notify the user it is starting
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Luaz v10";
-    Text = "Loading library...";
-    Duration = 3;
+local Window = Luaz:Window({
+    Title = "Admin Tools",
+    KeyLink = nil
 })
 
--- Execute the script
-local success, err = pcall(function()
-    loadstring(game:HttpGet(libraryUrl))()
+local Tab = Window:Tab("Main", "rbxassetid://6034509993")
+
+Tab:Section("Admin")
+
+-- This will now work because the library update is applied
+Tab:Button("Execute Infinite Yield", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-if not success then
-    warn("Luaz v10 failed to load: " .. tostring(err))
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title = "Error";
-        Text = "Failed to load Luaz v10. Check F9 console.";
-        Duration = 5;
-    })
-end
-
-
+Window:ConfigTab()
